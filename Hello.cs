@@ -1,3 +1,25 @@
+using System; // If I didn't use it here I had to write every time before calling functions Like: System.Console.WriteLine()
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace HelloWorld
+{
+    internal class Program
+    {
+        static void Main(string[] args) // The codes which I write under Main method , thats executes only
+        {
+ 
+           Console.WriteLine("Hello World");  //(System=Namespace, Console = Class , WriteLine = Method...has parantheses) => buil in 
+            Console.WriteLine("Hello Mim");
+            Console.WriteLine("Hello Urbi");
+            Console.ReadLine(); //After pressing enter key the program exits
+        }
+    }
+}
+
+
 /*  //Assemblies Contain related Namespaces
 
 namespace Math        // Namespace Contains related Classes
@@ -29,25 +51,50 @@ namespace Math        // Namespace Contains related Classes
 
       
 }
+
+
+
+// Methods can be called after creating an object. But it can also be called by using static before the methods . Here is an example:
+
+namespace Math        // Namespace Contains related Classes
+{
+     class Calculator         // Class Contains related Methods
+    {
+              static void Add()     //Method Contains related Codes
+               {
+
+  
+               }
+
+              static void Sub()   //Contains related codes
+              {
+
+
+               }
+               
+    }
+    class Formulas
+    {
+
+              static void SquareRoot()
+               {
+
+               }
+               
+      }  
+
+      
+}
+
+To call a method :
+class App 
+{ 
+    static void Main() //entry point
+    {
+        Math.Calculator.Add();
+    }
+    
+}
+
 */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HelloWorld
-{
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-
-           Console.WriteLine("Hello World");
-            Console.WriteLine("Hello Mim");
-            Console.WriteLine("Hello Urbi");
-            Console.ReadLine(); //After pressing enter key the program exits
-        }
-    }
-}
