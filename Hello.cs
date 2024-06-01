@@ -15,6 +15,7 @@ namespace HelloWorld
             Console.WriteLine("Hello Mim");
             Console.WriteLine("Hello Urbi");
             Console.ReadLine(); //After pressing enter key the program exits
+            //If i didn't use Console.ReadLine() the console would not pause and I couldnot see the outputs .
         }
     }
 }
