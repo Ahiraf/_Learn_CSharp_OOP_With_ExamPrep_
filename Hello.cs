@@ -1,30 +1,34 @@
-/* using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;   //Assemblies Contain related Namespaces
+/*  //Assemblies Contain related Namespaces
 
-namespace HelloWorld          //Contains related Classes
+namespace Math        // Namespace Contains related Classes
 {
-     class Calculator         //Contains related Methods
+     class Calculator         // Class Contains related Methods
     {
-               void Add()     //Contains related Codes
+               void Add()     //Method Contains related Codes
                {
 
   
                }
-
-
 
                void Sub()   //Contains related codes
               {
 
 
                }
-
+               
     }
-}
+    class Formulas
+    {
 
+               void SquareRoot()
+               {
+
+               }
+               
+      }  
+
+      
+}
 */
 
 using System;
