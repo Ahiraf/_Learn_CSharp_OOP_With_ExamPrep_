@@ -6,8 +6,8 @@ using System.Threading.Tasks;   //Assemblies Contain related Namespaces
 
 namespace DataTypes    //Contains related Classes
 {
-    class Program
-    {
+    class Program          //Camel case is used for variable naming and Pascel case is used for everything else//
+    {                      // Camel case = firstNumber  Pascel case= FirstNumber
         static void Main(string[] args)
         {
 
