@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace ControlStatements
         static void Main(string[] args)
         {
 
-                                                                                                      // 1) Selection or Conditional statements :
+                                               // 1) Selection or Conditional statements :
 
             int num = 10;
             if (num == 10)
@@ -78,12 +79,72 @@ namespace ControlStatements
 
 
 
+                                                            //2) Iteration or Looping Statem
+
+            
+                   //1) for loop
+                   //2) while loop
+                   //3) do- while loop
+                   //4) foreach loop
+
+//For loop;
+            for(int j = 0; j < 10; j++)
+            {
+                Console.WriteLine(j);
+            }
+            Console.ReadLine();
+
+            //While Loop:
+            int i = 0;
+            while (i < 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
+            Console.ReadLine();
 
 
-                                                                                  //2) Iteration or Looping Statem
+            //Do while Loop:
+             i = 0;
+            do
+            {
+                Console.WriteLine(i);
+                i++;
+            } while (i < 10);
+            Console.ReadLine();
 
+
+
+                                               //3) Jumping statements :
+            
+            //1) break statement;
+            for (int j = 0; j < 10; j++)
+            {
+                Console.WriteLine(j);
+                break; // now this loop can print only the first value of j
+            }
+            Console.ReadLine();
+
+
+            //2) continue statement;
+            for (int j = 0; j < 10; j++)
+            {
+                continue; //now this loop cannot print anything
+                Console.WriteLine(j);
+            }
+            Console.ReadLine();
+
+
+
+            //3) go to statement
+            for (int j = 0; j < 10; j++)
+            {
+                Console.WriteLine(j);
+                goto label;   //now this loop can print only one value of j
+            }
+            label:
+            Console.ReadLine();
 
         }
     }
 }
-
