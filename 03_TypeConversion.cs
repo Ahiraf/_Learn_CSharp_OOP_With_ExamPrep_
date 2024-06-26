@@ -22,7 +22,7 @@ namespace Type_conversion  //Contains related Classes
             Console.ReadLine();
 
 
-            //Explicit type conversion:by this i can convert the larger data type into smaller data type which is called type casting
+            //Explicit type conversion:by this I can convert the larger data type into smaller data type which is called type casting
             double d = 60.452;
             int  j = (int)d;
             Console.WriteLine(j); //output = 60
@@ -38,7 +38,7 @@ namespace Type_conversion  //Contains related Classes
             //Converting Non compatible data types : 1) by using convert class or  2) using Parse method
             ///Convert class:
             //ToByte()
-            //Toint16()= short
+            //ToInt16()= short
             //ToInt32()=int
             //ToInt64()= double
             string s = "12345";
