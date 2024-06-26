@@ -11,7 +11,7 @@ namespace HelloWorld
         static void Main(string[] args) // The codes which I write under Main method , thats executes only
         {
  
-           Console.WriteLine("Hello World");  //(System=Namespace, Console = Class , WriteLine = Method...has parantheses) => buil in 
+           Console.WriteLine("Hello World");  //Here, (System=Namespace, Console = Class , WriteLine = Method...has parantheses) => built in 
             Console.WriteLine("Hello Mim");
             Console.WriteLine("Hello Urbi");
             Console.ReadLine(); //After pressing enter key the program exits
