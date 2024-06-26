@@ -11,7 +11,9 @@ namespace Type_conversion  //Contains related Classes
         static void Main(string[] args)
         {
             //two types of type conversion : 1) implicit(automatic)  and  2) explecit (user dependent) 
-            //Implicit : 1)2 data types must be compatible with each other(means char data type value cannot be assigned in int )   2) We can only assign the value of smaller data types to largere data types
+            //Implicit : 1)2 data types must be compatible with each other(means char data type value cannot be assigned in int )  
+            //2) We can only assign the value of smaller data types to larger data types
+            
             byte b = 10;
             int i = b;
             long l = i;
