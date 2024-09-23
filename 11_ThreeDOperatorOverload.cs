@@ -32,12 +32,18 @@ public class HelloWorld
         int y=int.Parse(Console.ReadLine());
         int z=int.Parse(Console.ReadLine());
         ThreeD obj=new ThreeD(x,y,z); // as I make the constructor with parameters, I should call it with arguments.
+        Console.Write("Here is , obj: ");
+        obj.show();
         
        int x1=int.Parse(Console.ReadLine());
        int y1=int.Parse(Console.ReadLine());
        int z1=int.Parse(Console.ReadLine());
        ThreeD obj2=new ThreeD(x1,y1,z1);
+       Console.Write("Here is , obj2: ");
+       obj2.show();
+        
        ThreeD result = obj+obj2;
+       Console.Write("obj+obj2=");
        result.show();
     }
 }
