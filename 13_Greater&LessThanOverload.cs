@@ -44,9 +44,16 @@ public class HelloWorld
         int y2=int.Parse(Console.ReadLine());
         int z2=int.Parse(Console.ReadLine());
         ThreeD obj2=new ThreeD(x2,y2,z2); 
+        Console.Write("Here is , obj2: ");
+        obj2.show();
+        
+        
         if(obj>obj2)Console.WriteLine("Point A is further than B");
-        else{
+        else if(obj<obj2){
             Console.WriteLine("Point B is further than A");
+        }
+        else{
+            Console.WriteLine("Point B and A are same point");
         }
     }
 }
