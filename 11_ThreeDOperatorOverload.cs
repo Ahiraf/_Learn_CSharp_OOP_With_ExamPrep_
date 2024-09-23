@@ -18,9 +18,9 @@ public class ThreeD
         return result;
         
     }
-    public override string ToString()
+    public void show()
     {
-        return $"x: {x}, y: {y}, z: {z}";
+        Console.WriteLine(x+ "," +y +"," +z);
     }
 }
 
@@ -38,6 +38,6 @@ public class HelloWorld
        int z1=int.Parse(Console.ReadLine());
        ThreeD obj2=new ThreeD(x1,y1,z1);
        ThreeD result = obj+obj2;
-       Console.WriteLine(result);
+       result.show();
     }
 }
