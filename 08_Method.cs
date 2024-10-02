@@ -8,7 +8,10 @@ using System.Threading.Tasks;
 // Method is a group of related satements. 
 // We can organize code in methods and can give name to call it by its name as many time as I want .
 
-// We can call a non-static mathod in a non-static method , If they both are in the same class . But we cannot call a non-static method in a static method(like Main Method) . To call it we should creat object first . Or we should make all the non-static method static/
+// We can call a non-static mathod in a non-static method , If they both are in the same class .
+//But we cannot call a non-static method in a static method(like Main Method) . 
+//To call it we should creat object first . Or we should make all the non-static method static
+
 
 
 //            public/          int/ float/                                 
