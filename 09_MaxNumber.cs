@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-
+// Find maximum number from the two numbers
 namespace Method
 {
     public class Program
