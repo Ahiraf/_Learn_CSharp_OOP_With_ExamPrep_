@@ -20,6 +20,15 @@ using System.Threading.Tasks;
 //           {
                      // Body of Method 
 //            }
+
+// 4 types of Methods : 
+
+// i) Method with no argument and no return value. 
+//ii) Method with no argument but return value.
+//iii) Method with argument but no return value.
+//iv) Method with argument and return value.
+
+ 
 namespace Method
 {
     public class Calculator 
