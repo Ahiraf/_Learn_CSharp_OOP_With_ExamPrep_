@@ -46,7 +46,14 @@ namespace Encapsulation
         public int accountBalance = 1000;
         public void SetBalance(int amount)
         {
-            accountBalance = amount;
+            if(amount<0)
+            {
+                Console.WriteLine("You can not pass negative value");
+            }
+            else
+            {
+               accountBalance = amount;
+            }
         }
         public void GetBalance()
         {
@@ -59,12 +66,26 @@ namespace Encapsulation
         public static void Main(string[] args)
         {
             Account myAccount = new Account();
-            myAccount.SetBalance(10000);
+            myAccount.SetBalance(-10000);
             myAccount.GetBalance();
           
         }
     }
 }
+
+// Thus using setter method user can control the Access from any other class to that class . 
+// We can also use Properties without  using this get , set method.
+// A property is like a combination of a variable and a method . 
+// And it contains two methods : a get and a set method .
+
+
+
+
+
+
+
+
+
 
 
 
