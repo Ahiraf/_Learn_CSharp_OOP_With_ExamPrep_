@@ -25,13 +25,6 @@ using System.Threading.Tasks;
 */
 namespace Access_Modifiers
 {
- /* class Program{
-        static void Main(string[] args){
-            Car myCar = new Car();
-            myCar.model  // Now as model is private varible of a private class , I cannot call it in another class
-            
-        }
-    }
     class Car
    {
        private string model;
@@ -44,16 +37,24 @@ namespace Access_Modifiers
            Console.WriteLine("Color:"+color);
            Console.WriteLine("Price:"+price);
            Console.ReadLine();
-       }
-       
-    
-   } */
-  /* class Program
+       }       
+   } 
+   
+   class Program
    {
-       
-   }
+        static void Main(string[] args)
+        {
+            Car myCar = new Car();
+            myCar.model ; // Now as model is private varible of a private class , I cannot call it in another class    
+        }  
+   } 
+
+ */
+
+
+   /* So,
     class Car
-   {
+    {
        string model;
        string color;
        int price;
@@ -74,7 +75,7 @@ namespace Access_Modifiers
         }
        
     
-   }
+   }  */
    //Or, If I use the Main Method in the Program class , then I should use public Access Modifier in the Car Class.*/
   
   internal class Car //now the Car class is private
@@ -90,14 +91,13 @@ namespace Access_Modifiers
            Console.WriteLine("Price:"+price);
            Console.ReadLine();
        }
-       static void Main(string[] args){
+       static void Main(string[] args)
+       {
             Car myCar = new Car();
             myCar.model = "Ferrari"; //Now I can call it because the main method is in the same class.
             myCar.color = "Black";
             myCar.price = 30000000;
             myCar.PrintCarInformation();
         }
-       
-    
    }  
 }
