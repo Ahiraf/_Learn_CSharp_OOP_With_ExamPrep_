@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControlStatements
+namespace Class_Object
 {
     class Calculator  //Class doesn't occupy memory
     {
