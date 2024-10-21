@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// To call a method = " namespace.class.method() ; "
+ 
 namespace HelloWorld
 {
     internal class Program
