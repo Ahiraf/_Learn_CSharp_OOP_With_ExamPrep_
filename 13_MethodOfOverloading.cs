@@ -6,12 +6,6 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-
-//if we use '+' operator between two int value it will add them up but if we use it between two strings it will concatenate them.
-// Two types polymorphism in C# , 
-//  i) Compile time polymorphism : Static Polymorphism , and we can achieve it by Method of Overloading 
-//  ii) Run time Polymorphism : Dynamic Polymorphism , and we can achieve it by Method of Overriding .
-
 // In Method of overloading We can create multiple methods of same name, in the same class . To do that there are some rules :
 //  i) All the Methods should have same name 
 // ii) All the Methods should be in same class
