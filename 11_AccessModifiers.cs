@@ -19,7 +19,7 @@ using System.Threading.Tasks;
    3) Protected
    4) Internal (which makes the classes Private and its members public until in the same project.) and 
                (The code is only accessible within its own assembly, but not from another assembly, 
-               It means we can all classes and its members publicly until we are in the same project or same file)
+               It means we can use all classes and its members publicly until we are in the same project or same file)
    5) Protected Internal
    6) Private Protected
 */
