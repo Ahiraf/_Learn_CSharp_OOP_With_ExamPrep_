@@ -79,7 +79,7 @@ namespace ControlStatements
 
 
 
-                                                            //2) Iteration or Looping Statem
+                                                            //2) Iteration or Looping Statements
 
             
                    //1) for loop
