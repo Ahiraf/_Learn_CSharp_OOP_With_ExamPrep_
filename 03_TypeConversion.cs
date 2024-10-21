@@ -46,10 +46,10 @@ namespace Type_conversion  //Contains related Classes
             Console.WriteLine(a);
             Console.ReadLine();
             //or using parse method
-            //byte.Parse
-            //short.Parse
-            //int.Parse
-            //bool.Parse
+            //byte.Parse()
+            //short.Parse()
+            //int.Parse()
+            //bool.Parse()
         }
 
     }
