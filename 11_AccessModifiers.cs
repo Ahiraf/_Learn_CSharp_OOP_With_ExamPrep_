@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 /* There are total 6 Access Modifier in C#
    1) Public (The code is accessible for all classes )
    2) Private = The code is only accessible within the same class
-   3) Protected
+   3) Protected = The code is accessible within the same class, or in a class that is inherited from that class.
    4) Internal (which makes the classes Private and its members public until in the same project.) and 
                (The code is only accessible within its own assembly, but not from another assembly, 
                It means we can use all classes and its members publicly until we are in the same project or same file)
