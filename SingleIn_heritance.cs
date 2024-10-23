@@ -5,7 +5,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SingleInheritance
+namespace Single_Inheritance
 {
     class Car
    {
@@ -15,9 +15,9 @@ namespace SingleInheritance
        
        public void PrintCarInformation()
        {
-           Console.WriteLine("Mode: "+model);
-           Console.WriteLine("Color: "+color);
-           Console.WriteLine("Price: "+price);
+           Console.WriteLine("Mode : "+model);
+           Console.WriteLine("Color : "+color);
+           Console.WriteLine("Price : "+price);
        }      
    }
    class Maruti:Car
@@ -25,7 +25,7 @@ namespace SingleInheritance
        float mileage;
        void PrintMileage()
        {
-           Console.WriteLine("Mileage: " + mileage);
+           Console.WriteLine("Mileage : " + mileage);
        }
        public static void Main(string[] args)
        {
