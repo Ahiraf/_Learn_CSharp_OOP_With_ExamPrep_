@@ -31,6 +31,8 @@ using System.Threading.Tasks;
 
 
 
+
+
                // How to achieve "Encapsulation" : 
                
 //Encapsulation can be achieved in two steps :   
@@ -39,7 +41,7 @@ using System.Threading.Tasks;
 //Setter Method : To modify the value of Private variable
 //Get Method : To get Value 
                
-namespace Encapsulation
+/*namespace Encapsulation
 {
     class Account
     {
@@ -71,12 +73,70 @@ namespace Encapsulation
           
         }
     }
-}
+} */
 
 // Thus using setter method user can control the Access from any other class to that class . 
 // We can also use Properties without  using this get , set method.
-// A property is like a combination of a variable and a method . 
+
+// A property is like a combination of a variable and a method .
 // And it contains two methods : a get and a set method .
+
+
+
+
+
+
+            // The above code is written using "property" : 
+            
+namespace Encapsulation
+{
+    class Account
+    {
+        public int accountBalance = 1000;
+        public int Balance
+        {
+            set
+            {
+                  if(value<0)
+                  {
+                        Console.WriteLine("You can not pass negative value");
+                  }
+                   else
+                   {
+                         // Since no parameter is used, "value" works as the value for accountBalance.
+                    accountBalance = value; 
+                   }
+            }// Here, the accountBalance variable is being set by the Balance property.
+           get
+           {
+                  return accountBalance;
+            }
+        }
+    }
+class Program
+    {
+        
+        public static void Main(string[] args)
+        {
+            Account myAccount = new Account();
+            myAccount.Balance = 10000;
+            Console.WriteLine("Your account balance is :"+myAccount.Balance);
+          
+        }
+    }
+}
+
+//If no set method is used, then the Property will be a "Read only Property". It means we can only read the value of accountBalance and cannot write or set it .
+//If no get method is used,then the Property will be a "Write only Property". It means we can only write the value of accountBalance and cannot read or print it in the main method .
+
+
+
+
+
+
+
+
+
 
 
 
