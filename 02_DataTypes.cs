@@ -4,6 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;   //Assemblies Contain related Namespaces
 
+
+// There are three types of data in C-sharp.
+
+/*1) Value data type : Directly store value in memory. can be both signed and unsigned.Derived from the class System.ValueType
+                       Example : short,int,float,double,char,Enumerations,Structures etc . Here Enumerations and 
+                       Structures are userdefined, and others are predefined.
+
+ 2) Reference data type : Stores memory address of a variable.Does not contain the actual data value.
+                          Example : Class,Object,Interface,String. Here, Class and Interface are userdefined and 
+                          String and Object are predefined .
+                          
+ 3) Pointer data type : Store memory address of another type. Similar property seen in C.
+                        Example : Pointer
+*/
+
 namespace DataTypes    //Contains related Classes
 {
     class Program          //Camel case is used for variable naming and Pascel case is used for everything else//
