@@ -29,9 +29,13 @@ Both **StudentUser** and **TeacherUser** might have **checkOutBook()**, allowing
 **🌈 Benefits of OOP in This Scenario**
 
 **Modular Code 🧩:** Each class is responsible for its own logic, making bug tracking and updates a breeze.
-**Reusability 🔄:** Use classes across different parts of the program or in new projects!
+
+**Reusability 🔄:** Anyone can use classes across different parts of the program or in new projects!
+
 **Scalability 📈:** Add new classes or subclasses (like DigitalBook) without breaking existing code.
+
 **Maintainability ⚙️:** Change one part of the program (e.g., updating the loan process) without affecting others — thanks to encapsulation!
+
 
 OOP helps us build a structure that resembles the real world 🌍, making code intuitive and manageable — especially as the project grows and evolves over time! 🛠️
 
