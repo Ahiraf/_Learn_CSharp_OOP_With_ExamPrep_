@@ -15,7 +15,7 @@ Classes represent real-world entities like Books, Users, and Loans. Each has its
 **User Class 🧑‍🏫:** Attributes like name, userID, and methods like **checkOutBook()** and **returnBook()**.
 
 **2. 🔐 Encapsulation 🔒**
-It also known as **"Data Hiding"** Encapsulation secures each class's data by hiding it from others, exposing only essential functions.
+It also known as **"Data Hiding"** . Encapsulation secures each class's data by hiding it from others, exposing only essential functions.
 For example, the owner of the library wouldn’t want a User to modify a Book’s ISBN directly! Only the Book class has control, ensuring safe data updates and preventing misuse.
 
 **3. 🧬 Inheritance 🔗**
@@ -27,7 +27,7 @@ LibraryUser Base Class 🏛️: Has common properties like userID and name.
 Polymorphism enables different classes to be used interchangeably if they share the same methods.
 Both **StudentUser** and **TeacherUser** might have **checkOutBook()**, allowing the **LibraryUser** class to handle them both seamlessly without worrying about their specific types.
 
-**5.Abstraction :** It also known as **"Complexity Hiding"** A **Book** class might have a **borrow()** method. Abstraction ensures that when User interacts with **borrow()**, they don't need to know how it’s implemented internally,whether it updates a database, performs checks, or logs transactions. They simply know that calling **borrow()** will allow them to borrow a book if available.
+**5.Abstraction :** It also known as **"Complexity Hiding"** . A **Book** class might have a **borrow()** method. Abstraction ensures that when User interacts with **borrow()**, they don't need to know how it’s implemented internally,whether it updates a database, performs checks, or logs transactions. They simply know that calling **borrow()** will allow them to borrow a book if available.
 
 **🌈 Benefits of OOP in This Scenario**
 
