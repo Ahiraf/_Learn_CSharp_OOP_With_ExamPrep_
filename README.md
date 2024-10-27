@@ -32,10 +32,12 @@ Both **StudentUser** and **TeacherUser** might have **checkOutBook()**, allowing
 
 **Reusability 🔄:** Anyone can use classes across different parts of the program or in new projects!
 
-**Scalability 📈:** Add new classes or subclasses (like DigitalBook) without breaking existing code.
+**Scalability 📈:** Anyone can add new classes or subclasses (like DigitalBook) without breaking existing code.
 
-**Maintainability ⚙️:** Change one part of the program (e.g., updating the loan process) without affecting others — thanks to encapsulation!
+**Maintainability ⚙️:** Anyone can change one part of the program (e.g., updating the loan process) without affecting others — thanks to encapsulation!
 
 
 OOP helps us build a structure that resembles the real world 🌍, making code intuitive and manageable — especially as the project grows and evolves over time! 🛠️
+
+__In my first year at university, I learned C#. I have compiled all the basics of C# here, with explanations where necessary using comments. Anyone can easily understand the basics of C# with this repository. I have also included some basic problems for practice.__
 
