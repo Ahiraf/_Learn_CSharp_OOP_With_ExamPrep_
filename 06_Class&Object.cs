@@ -30,6 +30,7 @@ namespace Class_Object
     }
         static void Main(string[] args)
         {
+            //Instantiation – to use a class, an object for that class must be created.It is called "Instantiation".
             Calculator obj = new Calculator(); //Objects occupy memory 
             obj.num1 = 20;
             obj.num2 = 30;
