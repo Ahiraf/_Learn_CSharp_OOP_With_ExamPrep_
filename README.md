@@ -10,6 +10,7 @@ If anyone wants to build software for a library! 📚 Without OOP, he’d have s
 
 **1. 🏷️ Classes and Objects 🛠️**
 Classes represent real-world entities like Books, Users, and Loans. Each has its own properties (attributes) and actions (methods).
+
 **Book Class 📘:** Attributes like title, author, ISBN, and methods like **borrow()** and **return().**
 **User Class 🧑‍🏫:** Attributes like name, userID, and methods like **checkOutBook()** and **returnBook()**.
 
@@ -25,6 +26,8 @@ LibraryUser Base Class 🏛️: Has common properties like userID and name.
 **4. 🎭 Polymorphism ✨**
 Polymorphism enables different classes to be used interchangeably if they share the same methods.
 Both **StudentUser** and **TeacherUser** might have **checkOutBook()**, allowing the **LibraryUser** class to handle them both seamlessly without worrying about their specific types.
+
+**5.Abstraction :**  A **Book** class might have a **borrow()** method. Abstraction ensures that when User interacts with **borrow()**, they don't need to know how it’s implemented internally,whether it updates a database, performs checks, or logs transactions. They simply know that calling **borrow()** will allow them to borrow a book if available.
 
 **🌈 Benefits of OOP in This Scenario**
 
