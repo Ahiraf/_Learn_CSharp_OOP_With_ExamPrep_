@@ -3,9 +3,11 @@
 Object-Oriented Programming is essential for organizing code in a way that mirrors real-world relationships 🌍. It makes complex software easier to maintain, extend, and understand 👩‍💻👨‍💻. With OOP, we use concepts like Classes, Objects, Inheritance, Encapsulation, and Polymorphism to build modular, reusable, and scalable code!
 
 **💡 Real-World Example: Library Management System 📖🏫**
+
 If anyone wants to build software for a library! 📚 Without OOP, he’d have scattered structures and functions to handle everything from Books to Users to Loans — not very scalable! OOP brings clarity and order. 🧩
 
 **🌟 How OOP Enhances the Library System**
+
 **1. 🏷️ Classes and Objects 🛠️**
 Classes represent real-world entities like Books, Users, and Loans. Each has its own properties (attributes) and actions (methods).
 **Book Class 📘:** Attributes like title, author, ISBN, and methods like **borrow()** and **return().**
@@ -25,6 +27,7 @@ Polymorphism enables different classes to be used interchangeably if they share 
 Both **StudentUser** and **TeacherUser** might have **checkOutBook()**, allowing the **LibraryUser** class to handle them both seamlessly without worrying about their specific types.
 
 **🌈 Benefits of OOP in This Scenario**
+
 **Modular Code 🧩:** Each class is responsible for its own logic, making bug tracking and updates a breeze.
 **Reusability 🔄:** Use classes across different parts of the program or in new projects!
 **Scalability 📈:** Add new classes or subclasses (like DigitalBook) without breaking existing code.
