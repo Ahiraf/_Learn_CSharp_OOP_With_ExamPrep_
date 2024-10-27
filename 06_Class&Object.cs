@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace Class_Object
 {
-    class Calculator  //Class doesn't occupy memory
+    class Calculator  //Class doesn't occupy memory. It contains "Attributes" and "Methods".
     {
+        //Attributes – member variables, used to store data about the object.
+        //Methods – member functions, used to perform specific task for that object.
+        
         int num1;
         int num2;
         int result;
