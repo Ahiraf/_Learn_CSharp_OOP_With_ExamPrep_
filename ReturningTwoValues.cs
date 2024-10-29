@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//return statement enables a method to return a value to its caller.
+//However, a method can return only one value each time it is called.
+// But if the user wants to two return two values by one method, then he can use "out" modifier.
+
 namespace UsingOut
 {
     class Decompose
@@ -30,3 +34,11 @@ namespace UsingOut
         }
     }
 }
+
+//The GetParts( ) method returns two pieces of information.
+
+//First, the integer portion of n is returned as GetParts( )’s return value.
+
+//Second, the fractional portion of n is passed back to the caller through the out parameter frac.
+
+//As this example shows, by using out, it is possible for one method to return two values.
