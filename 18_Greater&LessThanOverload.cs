@@ -1,5 +1,7 @@
 using System;
 
+// NB : C# binary operators (> and <) can only accept two operands.
+
 public class ThreeD
 {
     public int x,y,z;
