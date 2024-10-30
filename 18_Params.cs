@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;  
 
-/* a method is created, it is usually known in advance the number of arguments
-Want to create a method that can be passed an arbitrary number of arguments.
-For example, consider a method that finds the smallest of a set of values.
-Passing an arbitrary number of parameters done by creating a params parameter.
+/* 
+=>a method is created, it is usually known in advance the number of arguments
+=>If anyone want to create a method that can be passed an arbitrary number of arguments then he should use params
+=>For example, consider a method that finds the smallest of a set of values.
+=>Passing an arbitrary number of parameters done by creating a params parameter.
 */
 namespace Param
 {
