@@ -1,5 +1,4 @@
 using System;
-
 class A
 {
     public int i=0;
@@ -10,15 +9,15 @@ class A
 }
 class B:A
 {
-   new int i;
+   new int i;  //This i hides the i in A
   public B(int a,int b)
   {
-      base.i=a;
-      i=b;
+      base.i = a; //This uncovers the i in A
+      i = b;
   }
-  new public void Show()
+  new public void Show() // This Show() hides the Show() in A
   {
-      base.Show();
+      base.Show(); //This uncovers the Show() in A.
       Console.WriteLine("i in the derived class "+i);
   }
 }
