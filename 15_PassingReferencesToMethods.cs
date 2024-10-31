@@ -66,8 +66,8 @@ using System;
 
 public class Myclass
 {
-    public int alpha;
-    public int beta;
+     int alpha;
+     int beta;
     public  Myclass(int i,int j)
     {
         alpha = i;
@@ -92,7 +92,7 @@ public class Myclass
     }    
 }
 
-public class HelloWorld
+public class Program
 {
     public static void Main(string[] args)
     {
