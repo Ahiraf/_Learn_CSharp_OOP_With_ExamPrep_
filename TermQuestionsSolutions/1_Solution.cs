@@ -38,7 +38,6 @@ public class Person
        }
   }
 
-
     public Gender Gender
     {
         get { return gender; }
@@ -70,25 +69,25 @@ public class Person
     // Method to check if all values are set
    public bool IsComplete()
 {
-    // Check if each important field is set
+    // Checking if each important field is set
     if (firstName == null || lastName == null || address == null || nIDCardNumber == null)
     {
         return false; // If any of these fields are null, return false
     }
 
-    // Check if the date of birth is a valid date
+    // Checking if the date of birth is a valid date
     if (dateOfBirth == DateTime.MinValue) // MinValue is like the "default" date
     {
         return false;
     }
 
-    // Check if the gender is set (you could adjust this based on what you consider valid)
+    // Checking if the gender is set
     if (gender == Gender.Male || gender == Gender.Female || gender == Gender.Other)
     {
-        return true; // If all checks pass, return true (person is complete)
+        return true; //(person is complete)
     }
 
-    return false; // Otherwise, return false
+    return false; 
 }
   // Here "IsComplete()" method helps to achieve data validation.
   
